@@ -102,11 +102,9 @@ h2 {
 }
 
 .sub-title {
-	font-size: 18px;
 	margin-top: 5px;
 	margin-bottom: 0px;
 	color: white;
-	font-weight: bolder;
 }
 
 /* =Content Styles
@@ -179,7 +177,12 @@ h2 {
 	position: absolute;
 	z-index: 2;
 	top: 10%;
-	color: white !;
+}
+
+.title>h2 {
+	font-size: 40px;
+	font-weight: 400;
+	text-transform: capitalize;
 }
 
 .line {
@@ -200,20 +203,20 @@ h2 {
 	bottom: 5%;
 }
 
-.contact>#register-here {
+.contact>.custom-button {
 	background-color: white;
 	padding: 10px 20px;
 	display: block;
 	border-radius: 5px;
 	font-size: 20px;
 	text-align: center;
-	color: green;
+	color: purple;
 	width: 300px;
 	margin: 20px auto 0 auto;
 	transition: all 0.3s;
 }
 
-.contact>#register-here:hover {
+.contact>.custom-button:hover {
 	transform: scale(1.02);
 }
 
