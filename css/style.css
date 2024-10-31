@@ -375,6 +375,11 @@ h2 {
 	top: 0;
 }
 
+/* Icon */
+.icon>i {
+	color: white !important;
+}
+
 /* =Responsive Styles
 -------------------------------------------------------------- */
 
